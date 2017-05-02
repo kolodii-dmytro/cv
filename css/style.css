@@ -1,0 +1,71 @@
+body {
+    font-family: 'Ubuntu', sans-serif;
+    background-image: url(../img/noise.jpg);
+    background-repeat: repeat;
+}
+
+ul {
+    padding: 0
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+}
+
+a:hover > i {
+    color: #0099d7;
+}
+
+button {
+    display: inline-block;
+}
+
+#ru,
+#en {
+    display: none;
+}
+
+.main-info {
+    display: inline-block;
+    height: 215px;
+}
+
+.photo {
+    display: inline-block;
+    float: right;
+    height: 222px;
+}
+
+#skills li {
+    vertical-align: top;
+}
+
+#tecnical li,
+#lang li {
+    display: inline-block;
+    margin: 3px;
+    padding: 5px;
+    border: 1px solid #999;
+    border-radius: 5px;
+}
+
+#projects li {
+    display: inline-block;
+    height: 70px;
+    margin: 3px;
+    padding: 5px;
+    vertical-align: top;
+    text-align: center;
+    border: 1px solid #999;
+    border-radius: 5px;
+}
+
+#projects li:hover {
+    border: 1px solid #0099d7;
+    color: #0099d7;
+}
